@@ -37,12 +37,12 @@
       <!-- Header -->
       <header class="bg-white px-4 py-3">
         <div
-          class="w-full md:max-w-7xl md:mx-auto md:flex md:items-center md:justify-between"
+          class="w-full lg:max-w-7xl lg:mx-auto flex items-center justify-between"
         >
           <div class="flex">
             <div class="mr-2 flex items-center rounded-xl bg-white p-2">
               <img
-                src="logo.svg"
+                src="/logo.svg"
                 class="h-7 w-7 shrink-0 text-gray-600"
                 title="Application Logo"
                 alt="Application Logo"
@@ -56,16 +56,16 @@
             </a>
           </div>
 
-          <div class="hidden md:block">
+          <div>
             <a
               href="https://app.getshelf.cloud/signin"
-              class="inline-block py-1 md:py-4 text-gray-500 hover:text-gray-600 mr-6"
+              class="inline-block py-1 lg:py-4 text-gray-500 hover:text-gray-600 mr-6"
             >
-              Login
+              Sign In
             </a>
             <a
               href="https://app.getshelf.cloud/signup"
-              class="inline-block  px-4 py-1 border border-teal-400 text-teal-500 rounded-xl hover:bg-gradient-to-br hover:from-teal-300 hover:to-emerald-300 hover:text-white hover:border-transparent"
+              class="hidden lg:inline-block  px-4 py-1 border border-teal-400 text-teal-500 rounded-xl hover:bg-gradient-to-br hover:from-teal-300 hover:to-emerald-300 hover:text-white hover:border-transparent"
             >
               Sign Up
             </a>
@@ -77,22 +77,22 @@
       <main>
         <!-- First page -->
         <div class="bg-gray-100">
-          <div class="mx-auto max-w-7xl min-h-[85vh] h-full flex space-x-10">
+          <div class="mx-auto mt-16 lg:mt-0 xl:max-w-7xl min-h-[85vh] h-full flex flex-col lg:flex-row lg:space-x-4 xl:space-x-10">
             <!-- Content: Left Side -->
-            <div class="w-1/3 flex items-center justify-center">
+            <div class="lg:w-1/3 p-4 flex items-center justify-center text-center lg:text-left">
               <div>
                 <div>
-                  <h1 class="text-gray-700 font-light text-xl sm:text-2xl md:text-5xl">
+                  <h1 class="text-gray-700 font-medium lg:font-light text-4xl lg:text-5xl">
                     Keep your files organized
                   </h1>
-                  <p class="mt-6 text-gray-500 font-light text-lg">
+                  <p class="mt-6 text-gray-500 font-light text-base lg:text-lg">
                     <span class="font-medium">Shelf</span> is the on-premise or off-premise file hosting service
                     with accent on speed, efficiency and reliability
                   </p>
                 </div>
 
                 <!-- Button Section -->
-                <div class="mt-8 space-x-4 ">
+                <div class="mt-8 space-y-4 space-x-4 lg:space-x-0 xl:space-x-2 text-xs text-center sm:text-sm xl:text-base">
                   <!-- Get Started Button -->
                   <a
                     href="https://app.getshelf.cloud/signup"
@@ -113,12 +113,12 @@
                   <a
                     href="https://github.com/unmade/shelf-showcase"
                     target="_blank"
-                    class="inline-block  border py-2 px-4 text-gray-700 bg-white hover:bg-gray-100 rounded-xl transition-colors ease-in-out"
+                    class="inline-block border py-2 px-4 text-gray-700 bg-white hover:bg-gray-100 rounded-xl transition-colors ease-in-out"
                   >
                     <div class="flex items-center">
                       <div>
                         <img
-                          src="GitHub-Mark-64px.png"
+                          src="/GitHub-Mark-64px.png"
                           class="w-5 h-5"
                           title="GitHub Invertocat Logo"
                           alt="GitHub Invertocat Logo"
@@ -138,14 +138,24 @@
             </div>
 
             <!-- Content: Right Side -->
-            <div class="w-2/3 flex items-center justify-center">
-              <div class="max-w-4xl mx-auto relative z-20 hidden md:block">
+            <div class="mt-8 lg:mt-0 lg:w-2/3 flex items-center justify-center">
+              <div class="max-w-4xl mx-auto hidden md:block">
                 <img
-                  src="https://i.imgur.com/3IxCXAg.png"
-                  title="Shelf main page screenshot"
-                  alt="Shelf main pagecreenshot"
+                  src="/browser.webp"
+                  title="Shelf Browser Preview"
+                  alt="Shelf Web Preview"
                   width="1024"
                   height="746"
+                  loading="eager"
+                />
+              </div>
+              <div class="mx-auto block md:hidden max-w-xl">
+                <img
+                  src="/mobile.png"
+                  title="Shelf Mobile Preview"
+                  alt="Shelf Mobile Preview"
+                  width="1400"
+                  height="2700"
                   loading="eager"
                 />
               </div>

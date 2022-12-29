@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vite dev --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
@@ -22,6 +22,7 @@
     "postcss": "^8.4.20",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.8.1",
+    "prettier-plugin-tailwindcss": "^0.2.1",
     "svelte": "^3.54.0",
     "svelte-check": "^2.9.2",
     "svelte-preprocess": "^5.0.0",

@@ -10,7 +10,11 @@ const config = {
       fallback: null,
       precompress: false,
       strict: true
-    })
+    }),
+    csp: {
+      mode: 'hash',
+      directives: { 'script-src': ['self'] }
+    }
   },
   preprocess: [
     preprocess({

@@ -20,7 +20,7 @@
       File manager that keeps your files organized
     </h1>
     <p
-      class="mt-10 max-w-2xl px-16 text-center text-lg font-light text-gray-500 dark:text-zinc-100/80 lg:px-0 lg:text-xl"
+      class="mt-10 max-w-2xl px-4 md:px-16 text-center text-lg font-light text-gray-500 dark:text-zinc-100/80 lg:px-0 lg:text-xl"
     >
       Shelf is a cloud and self-hosted open-source file manager with an accent on speed, efficience
       and reliability

@@ -18,7 +18,7 @@
       </div>
       <div class="flex items-center">
         <p
-          class="rounded-lg bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-500  bg-clip-text px-2 py-1 text-sm font-medium text-transparent"
+          class="rounded-lg bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-500 bg-clip-text px-2 py-1 text-sm font-medium text-transparent"
         >
           coming soon
         </p>

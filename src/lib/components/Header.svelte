@@ -19,13 +19,14 @@
             />
           </div>
           <div
-            class="inline-block h-7 py-1 font-mono text-2xl font-bold text-gray-800 dark:text-zinc-200"
+            class="flex items-center rounded-xl px-1 text-lg text-gray-800 lg:hidden lg:text-2xl xl:flex dark:text-zinc-200"
           >
-            shelf
+            <span class="font-light tracking-tight">Shelf</span>
+            <span class="ml-1 font-medium lg:ml-2">Cloud</span>
           </div>
         </div>
 
-        <!-- <div class="ml-10 space-x-8 text-lg flex items-center justify-center font-medium dark:text-zinc-200">
+        <!-- <div class="ml-10 space-x-8 text-lg flex items-center justify-center dark:text-zinc-200">
           <div>Features</div>
           <div>Pricing</div>
           <div>Roadmap</div>

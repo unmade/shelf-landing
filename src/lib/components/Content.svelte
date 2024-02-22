@@ -12,15 +12,15 @@
 
 <main>
   <section
-    class="flex flex-col items-center justify-center bg-zinc-900 bg-gradient-to-br from-sky-100 via-pink-100 to-violet-100 px-4 py-10 pt-14 dark:from-sky-800 dark:via-pink-800 dark:to-amber-600 md:px-20 lg:px-0 lg:pt-28"
+    class="flex flex-col items-center justify-center bg-zinc-900 bg-gradient-to-br from-sky-100 via-pink-100 to-violet-100 px-4 py-10 pt-14 md:px-20 lg:px-0 lg:pt-28 dark:from-sky-800 dark:via-pink-800 dark:to-amber-600"
   >
     <h1
-      class="max-w-3xl text-center text-5xl font-semibold text-gray-700 dark:text-zinc-200 lg:text-7xl"
+      class="max-w-3xl text-center text-5xl font-semibold text-gray-700 lg:text-7xl dark:text-zinc-200"
     >
       File manager that keeps your files organized
     </h1>
     <p
-      class="mt-10 max-w-2xl px-4 text-center text-lg font-light text-gray-500 dark:text-zinc-100/80 md:px-16 lg:px-0 lg:text-xl"
+      class="mt-10 max-w-2xl px-4 text-center text-lg font-light text-gray-500 md:px-16 lg:px-0 lg:text-xl dark:text-zinc-100/80"
     >
       Shelf is a cloud and self-hosted open-source file manager with an accent on speed, efficience
       and reliability
@@ -39,7 +39,7 @@
         href="https://github.com/unmade/shelf-showcase"
         target="_blank"
         rel="noreferrer"
-        class="inline-block rounded-lg bg-gradient-to-b from-gray-700 to-gray-800 py-2 px-3 text-gray-100 shadow-lg transition-colors ease-in-out hover:bg-gray-100 hover:from-gray-700/90 hover:to-gray-800/90 dark:from-zinc-700 dark:to-zinc-800 dark:text-zinc-200 dark:hover:from-zinc-700/90 dark:hover:to-zinc-800/90 lg:rounded-xl lg:px-4"
+        class="inline-block rounded-lg bg-gradient-to-b from-gray-700 to-gray-800 px-3 py-2 text-gray-100 shadow-lg transition-colors ease-in-out hover:bg-gray-100 hover:from-gray-700/90 hover:to-gray-800/90 lg:rounded-xl lg:px-4 dark:from-zinc-700 dark:to-zinc-800 dark:text-zinc-200 dark:hover:from-zinc-700/90 dark:hover:to-zinc-800/90"
       >
         <div class="flex items-center">
           <div>
@@ -91,14 +91,14 @@
   </section>
 
   <section
-    class="bg-gradient-to-br from-pink-100 via-violet-100 to-sky-100 px-4 pb-14 dark:from-transparent dark:to-transparent dark:py-14 lg:py-14 lg:px-0 lg:pt-8 dark:lg:py-14 xl:mx-auto"
+    class="bg-gradient-to-br from-pink-100 via-violet-100 to-sky-100 px-4 pb-14 lg:px-0 lg:py-14 lg:pt-8 xl:mx-auto dark:from-transparent dark:to-transparent dark:py-14 dark:lg:py-14"
   >
     <h2
-      class="mx-auto w-fit bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-500 bg-clip-text text-center text-xl font-semibold text-transparent dark:from-indigo-500 dark:via-violet-500 dark:to-purple-500 lg:text-2xl"
+      class="mx-auto w-fit bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-500 bg-clip-text text-center text-xl font-semibold text-transparent lg:text-2xl dark:from-indigo-500 dark:via-violet-500 dark:to-purple-500"
     >
       Own your files
     </h2>
-    <h3 class="text-center text-3xl font-medium text-gray-700 dark:text-zinc-200 lg:text-5xl">
+    <h3 class="text-center text-3xl font-medium text-gray-700 lg:text-5xl dark:text-zinc-200">
       All you need to manage your files in one place
     </h3>
     <div
@@ -153,7 +153,7 @@
       class="mx-4 flex justify-between py-14 lg:max-w-screen-xl lg:px-10 xl:max-w-screen-2xl 2xl:mx-auto"
     >
       <div class="w-full">
-        <h2 class="text-xl font-semibold text-gray-600 dark:text-zinc-200 lg:text-3xl">
+        <h2 class="text-xl font-semibold text-gray-600 lg:text-3xl dark:text-zinc-200">
           Try Shelf Cloud today
         </h2>
         <div class="flex items-center justify-between">

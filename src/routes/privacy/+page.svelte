@@ -1,8 +1,8 @@
 <script>
-  import Content from '$lib/components/Content.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import Head from '$lib/components/Head.svelte';
   import Header from '$lib/components/Header.svelte';
+  import Content from '$lib/components/privacy/Content.svelte';
 
   export const prerender = true;
 </script>

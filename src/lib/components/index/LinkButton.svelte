@@ -8,7 +8,7 @@
   /** @type {Object.<string, string>} */
   const colorsByType = {
     primary: [
-      'shadow-lg text-white',
+      'shadow dark:shadow-lg text-white',
       'bg-gradient-to-b from-teal-300 to-emerald-400',
       'hover:bg-gray-100 hover:from-teal-300/90 hover:to-emerald-400/90',
       'dark:bg-gradient-to-br dark:from-sky-500 dark:to-pink-500',

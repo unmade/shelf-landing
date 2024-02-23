@@ -1,12 +1,12 @@
 <script>
-  import LinkButton from './LinkButton.svelte';
+  import LinkButton from './index/LinkButton.svelte';
 </script>
 
 <header class="bg-gradient-to-r from-sky-100 to-pink-100 dark:from-sky-800 dark:to-pink-800">
-  <div class="px-4 py-4">
+  <div class="p-4 lg:py-6">
     <div class="flex w-full items-center justify-between lg:mx-auto lg:max-w-7xl">
       <div class="flex">
-        <div class="flex">
+        <a class="flex" href="/">
           <div class="mr-2 flex items-center rounded-xl bg-white p-2 dark:bg-white/5">
             <img
               src="/logo.svg"
@@ -19,12 +19,12 @@
             />
           </div>
           <div
-            class="flex items-center rounded-xl px-1 text-lg text-gray-800 lg:hidden lg:text-2xl xl:flex dark:text-zinc-200"
+            class="flex items-center rounded-xl px-1 text-lg text-gray-800 lg:text-2xl xl:flex dark:text-zinc-200"
           >
             <span class="font-light tracking-tight">Shelf</span>
             <span class="ml-1 font-medium lg:ml-2">Cloud</span>
           </div>
-        </div>
+        </a>
 
         <!-- <div class="ml-10 space-x-8 text-lg flex items-center justify-center dark:text-zinc-200">
           <div>Features</div>

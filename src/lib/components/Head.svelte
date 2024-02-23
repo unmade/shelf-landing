@@ -6,16 +6,16 @@
 
 <meta
   name="description"
-  content="Cloud and self-hosted open-source file manager with an accent on speed, efficience and reliability"
+  content="Cloud and self-hosted open-source photo manager with an accent on speed, efficience and reliability"
 />
 
-<meta property="og:site_name" content="Get Shelf" />
+<meta property="og:site_name" content="Get Shelf Cloud" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:title" content="Shelf - Keep Your Files Organized" />
+<meta property="og:title" content="Shelf Cloud - Keep Your Photos Organized" />
 <meta
   property="og:description"
-  content="Cloud and self-hosted open-source file manager with an accent on speed, efficience and reliability"
+  content="Cloud and self-hosted open-source photo manager with an accent on speed, efficience and reliability"
 />
 <meta property="og:url" content="https://getshelf.cloud" />
 <meta property="og:image" content="https://getshelf.cloud/og_preview.jpg" />

@@ -9,10 +9,10 @@
   const colorsByType = {
     primary: [
       'shadow dark:shadow-lg text-white',
-      'bg-gradient-to-b from-teal-300 to-emerald-400',
+      'bg-gradient-to-b from-teal-400 to-emerald-500',
       'hover:bg-gray-100 hover:from-teal-300/90 hover:to-emerald-400/90',
-      'dark:bg-gradient-to-br dark:from-sky-500 dark:to-pink-500',
-      'dark:hover:from-sky-500/90 dark:hover:to-pink-500/90'
+      'dark:bg-gradient-to-br dark:from-teal-500 dark:to-emerald-500',
+      'dark:hover:from-teal-500 dark:hover:to-emerald-500/90'
     ].join(' '),
     text: [
       'text-gray-700',

@@ -33,4 +33,4 @@
 <link rel="apple-touch-icon" sizes="167x167" href="/touch-icon-ipad-retina.png" />
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#059669" />
 <link rel="manifest" href="/manifest.json" />
-<title>Shelf - Keep Your Files Organized</title>
+<title>Shelf Cloud - Keep Your Photos Organized</title>
